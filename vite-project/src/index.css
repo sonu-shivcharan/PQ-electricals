@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ *{
+  font-family:'Montserrat', sans-serif
+ }
+#hero{
+    width: 100vw;
+    max-height: 500px;
+    aspect-ratio: 16/9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section h2{
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#services .img-container{
+    height: 400px;
+    aspect-ratio: 4/6;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   transition: all 0.5s ease!important;
+}
+#services .img-container:hover{
+    background-size: 110%;
+}
