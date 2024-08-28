@@ -7,7 +7,6 @@ const [opacity, setOpacity]= useState("0")
     setOpacity("1")
   })
   return (
-    <>
       <div
         id="hero"
         className="w-screen flex justify-center items-center bg-gray-200"
@@ -19,7 +18,7 @@ const [opacity, setOpacity]= useState("0")
         <div className="text-white font-bold max-w-[700px] text-center" style={{
           opacity:{opacity}
         }}>
-          <h2 className="p-3 text-4xl min-w-[200px] ">
+          <h2 className="p-3 text-3xl min-w-[200px] ">
             Your trusted source for all your{" "}
             <span className="underline">electrical needs.</span>
           </h2>
@@ -29,8 +28,8 @@ const [opacity, setOpacity]= useState("0")
           </h5>
         </div>
       </div>
-      <Services />
-    </>
+      
+    
   );
 }
 

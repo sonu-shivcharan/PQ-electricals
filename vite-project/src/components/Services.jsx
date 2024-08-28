@@ -18,14 +18,14 @@ function Services() {
                   <ul>
                     <li>New construction wiring</li>
                     <li>Electrical panel upgrades</li>
-                    <li>Lighting installation</li>
+                    <li>Lighting installavdgtion</li>
                     <li>Outlet and switch installation</li>
                     <li>Troubleshooting and repair</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className='bg-orange-100/20 flex flex-wrap items-center justify-center gap-8'>
+            <div className='bg-orange-100/20 flex flex-wrap items-center justify-center my-7 gap-8'>
               <div className='content p-7' data-aos="fade-up">
                 <h3 className='text-2xl font-bold text-orange-400'>Commercial</h3>
                 <div>

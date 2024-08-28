@@ -6,7 +6,7 @@ function About() {
       <h2>About</h2>
       <div className="flex justify-center items-center gap-5">
         <div
-          className="img-container"
+          className="img-container rounded-xl"
           style={{
             backgroundImage: "url(./electrician.avif)",
           }}
