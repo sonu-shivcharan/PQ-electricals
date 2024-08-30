@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <section id="about" className="min-h-[300px] p-[64px]">
-      <h2>About</h2>
+      <h2>About changed</h2>
       <div className="flex justify-center items-center gap-5">
         <div
           className="img-container rounded-xl"
