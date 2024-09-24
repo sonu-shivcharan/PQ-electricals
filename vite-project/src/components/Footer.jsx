@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div
       id="footer"
-      className="bg-gray-100 p-2 min-h-[200px] flex items-center flex-col py-5"
+      className="bg-gray-100 p-2 min-h-[200px] flex items-center flex-col py-5 mt-11"
     >
       <div className="container flex flex-wrap justify-around items-center h-full mx-auto">
         <h2 className="text-center text-xl font-bold text-orange-400 py-4 max-w-[300px]">
@@ -50,7 +50,7 @@ function Footer() {
         </div>
       </div>
       <div className="mt-7">
-        &copy; Copyright Professional and Qualified Electrical
+        &copy; Copyright Professional and Qualified Electricals
       </div>
     </div>
   );

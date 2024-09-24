@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 import SideNav from "./components/SideNav.jsx";
 import { useState } from "react";
 
+
 function App() {
   const [isSideNavOpen, setSideNavState] = useState(false);
   return (
@@ -11,6 +12,7 @@ function App() {
       <>
         <Navbar setSideNavState={setSideNavState} /> {isSideNavOpen?<SideNav setSideNavState={setSideNavState} />:" "}
       </>
+   
       <Outlet />
       <Footer />
     </>

@@ -13,6 +13,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
+import GetQuote from "./components/GetQuote.jsx";
 
 
 const router = createBrowserRouter(
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       <Route index element={<><Home /> <Services /></>} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="get-quote" element={<GetQuote/>} />
     </Route>
   )
 );

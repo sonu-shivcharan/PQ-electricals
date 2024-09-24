@@ -9,7 +9,7 @@ const [opacity, setOpacity]= useState("0")
   return (
       <div
         id="hero"
-        className="w-screen flex justify-center items-center bg-gray-200"
+        className="w-screen flex justify-center items-center bg-gray-200 "
         style={{
           backgroundImage: `linear-gradient(transparent,rgba(0,0,0,0.8)),url('./electric-bg.avif')`,
           backdropFilter: "blur(2px)",
@@ -19,10 +19,10 @@ const [opacity, setOpacity]= useState("0")
           opacity:{opacity}
         }}>
           <h2 className="p-3 text-3xl min-w-[200px] ">
-            Your trusted source for all your{" "}
+            Your trusted source for all your  {" "}<br />
             <span className="underline">electrical needs.</span>
           </h2>
-          <h5 className="p-3 text-xl bg-gray-100/10 rounded-xl">
+          <h5 className="p-3 text-l bg-gray-100/10 rounded-xl mx-auto max-w-[400px]">
             We offer a wide range of services for residential and commercial
             clients
           </h5>

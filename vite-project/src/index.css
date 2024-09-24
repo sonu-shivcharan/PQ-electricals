@@ -4,6 +4,10 @@
 @tailwind utilities;
 * {
   font-family: "Montserrat", sans-serif;
+  border: 0px solid red;
+}
+body{
+  overflow-x: hidden;
 }
 #side-nav{
   animation: slideRight 0.3s ease 1;
@@ -57,7 +61,18 @@ section h2 {
 #about .img-container:hover {
   background-size: 110%;
 }
-
+.popup {
+  animation: popup 0.3s ease 1;
+}
+@keyframes popup {
+  0%{
+    scale: 0.7;
+    opacity: 0;
+  }100%{
+    scale: 1;
+    opacity: 1;
+  }
+}
 @media  (max-width: 768px) {
   .navbar .nav-items, .navbar button{
     display: none;

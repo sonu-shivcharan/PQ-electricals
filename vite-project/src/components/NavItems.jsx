@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 function NavItems() {
   return (
     <><div className="nav-items flex gap-6 text-black font-bold p-4">
@@ -37,12 +37,12 @@ function NavItems() {
   
   </div>
   <div className="flex gap-3 btn-container">
+  <Link to="get-quote">
   <button className="bg-orange-400 text-white font-bold py-2 px-4 rounded-xl hover:bg-orange-500 duration-200">
       Get Quote
     </button>
-    <button className="text-orange-400  border-2 border-orange-400 font-bold py-2 px-4 rounded-xl duration-200">
-      Contact
-    </button>
+    </Link>
+  
     </div></>
   )
 }
